@@ -12,29 +12,29 @@ Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for 
   | Sr. no.   | Lyric        | Predicted word           | True word  |
   |---------- | ------------- |:-------------|:-----|
   | 1         | *I've gotta empty out the inside of my head*
-  |           | *I'd like to turn this place into my* **[MASK]**  | **own** | **home** |
+  |           | *I'd like to turn this place into my* **[MASK]**  | **_own_** | **_home_** |
   | 2         | *Down here where everything's crazy*
-  |           | *The whole world's falling* **[MASK]**  | **apart** | **apart** |
+  |           | *The whole world's falling* **[MASK]**  | **_apart_** | **_apart_** |
   | 3         | *The world was that way when I got hear*
-  |           | *We all link hands when the crowd cheers* **[MASK]** | **again**  | **loudly** |
+  |           | *We all link hands when the crowd cheers* **[MASK]** | **_again_**  | **_loudly_** |
   
 * **Rhyming search for last word based on AABB rhyming and prediction for all prior words in target lyric** -
 
   | Sr. no.   | Context        | Predicted lyric           | True lyric  | 
   |---------- | ------------- |:-------------|:-----|
-  | 1         | Better to write than to have read
-  |           | Better to cope than to complain
-  |           | Better in your hands that in your head
-  |           | [MASK] [MASK] ... [RHYME] | Better to have read | Easier done than said |
-  |           | Like a dying flower that just don't give a damn
-  | 2        | I’m not high on life
-  |           | I’m not drunk on love
-  |           |I’m broken down , not feeling right
-  |           | [MASK] [MASK] ... [RHYME] | I’m not drunk on my spite | I’m happy as I’m gonna be |
-  |           | And there’s nothing on the inside 
-  | 3        | Sorry, that's the last stop
-  |           | I'll see you
-  |           |I'll see you
-  |           | [MASK] [MASK] ... [RHYME] | Thanks, Miss Crewe |  On the way down |
-  |           | I'll see you 
+  | 1         | _Better to write than to have read_
+  |           | _Better to cope than to complain_
+  |           | _Better in your hands that in your head_
+  |           | **[MASK] [MASK] ... [RHYME]** | **_Better to have read_** | **_Easier done than said_** |
+  |           | _Like a dying flower that just don't give a damn_
+  | 2        | _I’m not high on life_
+  |           | _I’m not drunk on love_
+  |           |_I’m broken down , not feeling right_
+  |           | **[MASK] [MASK] ... [RHYME]** | **_I’m not drunk on my spite_** | **_I’m happy as I’m gonna be_** |
+  |           | _And there’s nothing on the inside_ 
+  | 3        | _Sorry, that's the last stop_
+  |           | _I'll see you_
+  |           |_I'll see you_
+  |           | **[MASK] [MASK] ... [RHYME]** | **_Thanks, Miss Crewe_** |  **_On the way down_** |
+  |           | _I'll see you_ 
   
