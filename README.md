@@ -2,12 +2,12 @@
 
 English Rock lyrics generation using pre-trained BERT model (Devlin, J. et al., 2018). 
 
-Data is obtained from the Kaggle 380,000+ Lyrics dataset. Used 'langdetect' Python library to filter out songs in languages other than English. Used 'pronouncing' Python library to search for properties for words like phones, syllables and rhyming words.
+Data is obtained from the Kaggle 380,000+ Lyrics dataset. Used *langdetect* Python library to filter out songs in languages other than English. Used *pronouncing* Python library to search for properties for words like phones, syllables and rhyming words.
 
-Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for continuity prediction.
+Used pre-trained **BERT MLM** for mask prediction and pre-trained **BERT NextSentence** for continuity prediction.
 
 **Few Results**:
-* **Only last word prediction in target lyric** -
+* **Only last word prediction in target lyric using BERT MLM** -
 
   | Sr. no.   | Lyric        | Predicted word           | True word  |
   |---------- | ------------- |:-------------|:-----|
@@ -18,7 +18,7 @@ Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for 
   | 3         | *The world was that way when I got hear*
   |           | *We all link hands when the crowd cheers* **[MASK]** | **_again_**  | **_loudly_** |
   
-* **Rhyming search for last word based on AABB rhyming and prediction for all prior words in target lyric** -
+* **Rhyming search for last word based on AABB rhyming and prediction for all prior words in target lyric using BERT MLM. Most likely occuring lyric obtained using BERT NextSentence** -
 
   | Sr. no.   | Context        | Predicted lyric           | True lyric  | 
   |---------- | ------------- |:-------------|:-----|
