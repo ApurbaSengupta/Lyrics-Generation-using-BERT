@@ -7,11 +7,11 @@ Data is obtained from the Kaggle 380,000+ Lyrics dataset. Used 'langdetect' Pyth
 Results:
 * Last word prediction for target lyric
 
-  | Lyric        | Predicted word           | True word  |
-  | ------------- |:-------------:| -----:|
-  | I've gotta empty out the inside of my head
-  | I'd like to turn this place into my <To be predicted>      | own | home |
-  | Down here where everything's crazy
-  | The whole world's falling <To be predicted>     | apart      |   apart |
-  | The world was that way when I got hear
-  | We all link hands when the crowd cheers <To be predicted> | again     |    loudly |
+  | Sr. no.   | Lyric        | Predicted word           | True word  |
+            | ------------- |:-------------:| -----:|
+  | 1         | I've gotta empty out the inside of my head
+  |          | I'd like to turn this place into my [MASK]      | own | home |
+  | 2         | Down here where everything's crazy
+  |          | The whole world's falling [MASK]     | apart      |   apart |
+  | 3         | The world was that way when I got hear
+  |          | We all link hands when the crowd cheers [MASK] | again     |    loudly |
