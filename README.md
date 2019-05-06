@@ -26,5 +26,15 @@ Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for 
   |           | Better to cope than to complain
   |           | Better in your hands that in your head
   |           | [MASK] [MASK] ... [RHYME]             | Better to have read | Easier done than said |
-  |           | Like a dying flower that just don't give a damn 
+  |           | Like a dying flower that just don't give a damn
+  | 2        | I’m not high on life
+  |           | I’m not drunk on love
+  |           |I’m broken down , not feeling right
+  |           | [MASK] [MASK] ... [RHYME]             | I’m not drunk on my spite | I’m happy as I’m gonna be |
+  |           | And there’s nothing on the inside 
+  | 3        | Sorry, that's the last stop
+  |           | I'll see you
+  |           |I'll see you
+  |           | [MASK] [MASK] ... [RHYME]             | Thanks, Miss Crewe |On the way down |
+  |           | I'll see you 
   
