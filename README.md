@@ -5,7 +5,7 @@ English Rock lyrics generation using pre-trained BERT model (Devlin, J. et al., 
 Data is obtained from the Kaggle 380,000+ Lyrics dataset. Used 'langdetect' Python library to filter out songs in languages other than English. Used 'pronouncing' Python library to search for properties for words like phones, syllables and rhyming words.
 
 Results:
-* ### Last word prediction for target lyric
+* ##### Last word prediction for target lyric
 
   | Sr. no.   | Lyric        | Predicted word           | True word  |
   |---------- | ------------- |:-------------:| -----:|
