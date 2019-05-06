@@ -6,7 +6,7 @@ Data is obtained from the Kaggle 380,000+ Lyrics dataset. Used 'langdetect' Pyth
 
 Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for continuity prediction.
 
-**Results**:
+**Few Results**:
 * **Only last word prediction in target lyric** -
 
   | Sr. no.   | Lyric        | Predicted word           | True word  |
