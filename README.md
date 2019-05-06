@@ -25,6 +25,6 @@ Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for 
   | 1         | Better to write than to have read
   |           | Better to cope than to complain
   |           | Better in your hands that in your head
-  |           | [MASK] [MASK] ... [RHYME]
-  |           | Like a dying flower that just don't give a damn | Better to have read | Easier done than said |
+  |           | [MASK] [MASK] ... [RHYME]             | Better to have read | Easier done than said |
+  |           | Like a dying flower that just don't give a damn 
   
