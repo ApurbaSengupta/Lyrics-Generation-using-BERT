@@ -6,8 +6,8 @@ Data is obtained from the Kaggle 380,000+ Lyrics dataset. Used 'langdetect' Pyth
 
 Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for continuity prediction.
 
-**Results:
-* **Only last word prediction in target lyric
+**Results**:
+* **Only last word prediction in target lyric** -
 
   | Sr. no.   | Lyric        | Predicted word           | True word  |
   |---------- | ------------- |:-------------|:-----|
@@ -18,7 +18,7 @@ Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for 
   | 3         | *The world was that way when I got hear*
   |           | *We all link hands when the crowd cheers* **[MASK]** | **again**  | **loudly** |
   
-* **Rhyming search for last word based on AABB rhyming and prediction for all prior words in target lyric
+* **Rhyming search for last word based on AABB rhyming and prediction for all prior words in target lyric** -
 
   | Sr. no.   | Context        | Predicted lyric           | True lyric  | 
   |---------- | ------------- |:-------------|:-----|
