@@ -21,7 +21,7 @@ Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for 
 * #### Rhyming search for last word based on AABB rhyming and prediction for all prior words in target lyric
 
   | Sr. no.   | Context        | Predicted lyric           | True lyric  | 
-  |---------- | ------------- |:-------------:| -----:| ------ |
+  |---------- | ------------- |:-------------:| -----:|
   | 1         | Better to write than to have read
   |           | Better to cope than to complain
   |           | Better in your hands that in your head
