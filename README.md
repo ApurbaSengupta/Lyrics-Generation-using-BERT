@@ -10,7 +10,7 @@ Used pre-trained BERT MLM for mask prediction and pre-trained BERT NextSent for 
 * #### Only last word prediction in target lyric
 
   | Sr. no.   | Lyric        | Predicted word           | True word  |
-  |---------- | ------------- |:-------------:| -----:|
+  |---------- | ------------- |-------------| -----|
   | 1         | I've gotta empty out the inside of my head
   |           | I'd like to turn this place into my [MASK]      | own | home |
   | 2         | Down here where everything's crazy
