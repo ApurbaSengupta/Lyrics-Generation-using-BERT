@@ -42,21 +42,21 @@ Used pre-trained **BERT MLM** for mask prediction and pre-trained **BERT NextSen
 
   **20 choices** -
   
-  _You made me happy_
-  _Jimmy Carl Black (drums)_
-  _You tell me you don't love me over a cup of coffee_
-  _it's hot it's hot tonight_
-  _I prayed for a light_
-  _The saddest thing's to see him venerate that ball and chain_
-  _Yes the wonder of the Tundra_
-  _Time comes to a halt_
-  _he's fighting until he dies_
-  _Oh no, we won't give in, let's go living in the past._
-  _And it's a strange infatuation taking off across the nations_
-  _Beat is getting stronger_
-  _You apologize but I don't hear_
-  _You'll be sayin', you'll be saying_
-  _Sometimes big wave coming when I'm down_
+  | _You made me happy_ |
+  | _Jimmy Carl Black (drums)_ |
+  | _You tell me you don't love me over a cup of coffee_ |
+  | _it's hot it's hot tonight_ |
+  | _I prayed for a light_ |
+  | _The saddest thing's to see him venerate that ball and chain_ |
+  | _Yes the wonder of the Tundra_ |
+  | _Time comes to a halt_ |
+  | _he's fighting until he dies_ |
+  | _Oh no, we won't give in, let's go living in the past._ |
+  | _And it's a strange infatuation taking off across the nations_ |
+  | _Beat is getting stronger_ |
+  | _You apologize but I don't hear_ |
+  | _You'll be sayin', you'll be saying_ |
+  | _Sometimes big wave coming when I'm down_ |
   
   **50 choices** -
   
