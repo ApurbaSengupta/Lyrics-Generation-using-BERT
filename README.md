@@ -36,5 +36,39 @@ Used pre-trained **BERT MLM** for mask prediction and pre-trained **BERT NextSen
   |           | _I'll see you_
   |           |_I'll see you_
   |           | **[MASK] [MASK] ... [RHYME]** | **_Thanks, Miss Crewe_** |  **_On the way down_** |
-  |           | _I'll see you_ 
+  |           | _I'll see you_
+  
+* **Best sequence** -
+
+  **20 choices** -
+  
+  _You made me happy
+	_Jimmy Carl Black (drums)_
+	_You tell me you don't love me over a cup of coffee_
+	_it's hot it's hot tonight_
+	_I prayed for a light_
+	_The saddest thing's to see him venerate that ball and chain_
+	_Yes the wonder of the Tundra_
+	_Time comes to a halt_
+	_he's fighting until he dies_
+	_Oh no, we won't give in, let's go living in the past._
+	_And it's a strange infatuation taking off across the nations_
+	_Beat is getting stronger_
+	_You apologize but I don't hear_
+	_You'll be sayin', you'll be saying_
+	_Sometimes big wave coming when I'm down_
+  
+  **50 choices** -
+  
+  _To condemn the man who dies_
+  _I need someone_
+  _Somewhere there's a place a soul can never go,_
+  _Can't get no you know_
+  _We're doin' a nu thang_
+  _Is there life after talk 'cause there's talk on the road_
+  _Changing rearranging every single day_
+  _Care what these people say_
+  _Won't you walk away_
+  _fuck what the others have to say_
+
   
